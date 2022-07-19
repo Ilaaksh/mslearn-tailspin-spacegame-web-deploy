@@ -1,10 +1,7 @@
 trigger:
 - '*'
 
-pool:
-  name: Ilaaksh
-  demands:
-  - npm
+pool: 'Ilaaksh'
 
 variables:
   buildConfiguration: 'Release'
